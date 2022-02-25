@@ -12,6 +12,7 @@ numpy = "^1.22.2"
 openpyxl = "^3.0.9"
 pandas = "^1.4.1"
 python-highcharts = "^0.4.2"
+matplotlib = "^3.5.1"
 
 [tool.poetry.dev-dependencies]
 [tool.semantic_release]
