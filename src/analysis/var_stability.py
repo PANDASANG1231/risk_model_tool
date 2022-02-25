@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 # from plot_chs_config import zhfont
-from woe_tools_qjc import woe_calc, iv_calc
+from woe_tools import woe_calc, iv_calc
 
 
 def calc_psi(delp, valid):

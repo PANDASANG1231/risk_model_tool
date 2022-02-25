@@ -7,7 +7,7 @@ import traceback
 from datetime import datetime
 import pandas as pd
 import numpy as np
-import woe_tools_qjc as woe
+import woe_tools as woe
 
 
 usage = '''
