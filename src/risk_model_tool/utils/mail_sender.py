@@ -1,3 +1,6 @@
+# coding: utf-8
+# Author: Wenjia Zhu
+
 import sys
 import time
 import html
