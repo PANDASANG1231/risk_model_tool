@@ -10,7 +10,12 @@ $ pip install risk_model_tool
 
 ## Usage
 
-- TODO
+The whole package is consisted of 4 parts: `analysis`, `preprocess`, `model`, `utils`.
+
+  - `analysis`: 
+  - `preprocess`:
+  - `model`: 
+  - `utils`: [Doc of Utils](https://github.com/PANDASANG1231/risk_model_tool/blob/master/docs/example.ipynb)
 
 ## Contributing
 
