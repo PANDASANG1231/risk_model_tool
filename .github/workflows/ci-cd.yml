@@ -66,7 +66,11 @@ jobs:
       env:
         # This token is created automatically by GH Actions
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: poetry publish
+      run: |
+          pip install python-semantic-release
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          semantic-release publish
 
     - name: Publish to TestPyPI
       uses: pypa/gh-action-pypi-publish@release/v1
