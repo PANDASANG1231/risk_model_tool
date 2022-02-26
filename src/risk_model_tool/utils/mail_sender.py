@@ -38,6 +38,10 @@ class MailSender(object):
         for i in range(4):
             try :
                 s = smtplib.SMTP(self.host, self.port, timeout=self.timeout)
+                s.ehlo()
+                s.starttls() #Puts connection to SMTP server in TLS mode
+                s.ehlo()
+                s.login(self.user, self.passwd)
                 s.sendmail(self.user, self.to,  msg=self.msgRoot.as_string())
                 s.close()
                 logging.info('Mail sending done')
