@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "risk_model_tool"
-version = "0.1.2"
+version = "0.1.3"
 description = "This is a package help analyzing, preprocessing, and modeling in credit default projects."
 authors = ["Wenjia Zhu, Jianhong Jiang, Jingcheng Qiu"]
 license = "MIT"
